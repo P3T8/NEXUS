@@ -7,7 +7,7 @@ const NewNexusPage = () => {
     const navigate = useNavigate();
 
     React.useEffect(() => {
-        axios.get("http://localhost:3000/api/nexus/type")
+        axios.get("/api/type")
             .then(response => {
                 setType(response.data);
             })
@@ -26,7 +26,7 @@ const NewNexusPage = () => {
             type_id: formData.get("type_id")
         };
 
-        axios.post("http://localhost:3000/api/newspaceships", spaceships)
+        axios.post("/api/newspaceships", spaceships)
             .then(response => {
                 console.log("Sikeres mentés:", response.data);
                 navigate("/types");
