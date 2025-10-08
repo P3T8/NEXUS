@@ -1,0 +1,6 @@
+{
+    "nev": "Musashi",
+    "style_neve": "Battleship",
+    "evek": 2005,
+    "type_id": 1
+  }
