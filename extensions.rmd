@@ -1,0 +1,17 @@
+EXTENSIONS:
+    - HTML CSS Support
+    - JavaScript (ES6) code snippets
+    - ESLint
+    - Code Runner
+    - Live Server
+    - Material Icon Theme
+    - Peacock
+    - Notepad++ keymap
+    - Prettier - Code formatter
+    - Rainbow CSV
+    - Simple React snippets
+    - Thunder Client
+    - vscode-pdf
+    - Github Copilot
+    - Github Copilot Chat
+    
